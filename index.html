@@ -1,0 +1,46 @@
+<html lang="en">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
+    <title>4Chal</title>
+  </head>
+  <body>
+    <div>
+      <input type="text" id="pokemonName1" placeholder="Enter Pokemon Name">
+      <button onclick="fetchData('1')">Fetch Pokemon</button>
+
+      <img src = "" alt="sprite" id="pokemonSprite1" style="display: none">
+      <h3>Type:</h3>
+      <p id="type1"></p>
+      <h3>Height:</h3>
+      <p id="height1"></p>
+      <h3>Weight:</h3>
+      <p id="weight1"></p>
+    </div>
+    <div>
+      <input type="text" id="pokemonName2" placeholder="Enter Pokemon Name">
+      <button onclick="fetchData('2')">Fetch Pokemon</button>
+
+      <img src = "" alt="sprite" id="pokemonSprite2" style="display: none">
+      <h3>Type:</h3>
+      <p id="type2"></p>
+      <h3>Height:</h3>
+      <p id="height2"></p>
+      <h3>Weight:</h3>
+      <p id="weight2"></p>
+    </div>
+    <button onclick="createPokemon()">Mash Pokemon</button>
+    <div>
+      <h2>Your new Pokemon...<span id="pokemonName3"></span></h2>
+
+      <img src = "" alt="sprite" id="pokemonSprite3" style="display: none">
+      <h3>Type:</h3>
+      <p id="type3"></p>
+      <h3>Height:</h3>
+      <p id="height3"></p>
+      <h3>Weight:</h3>
+      <p id="weight3"></p>
+    </div>
+  </body>
